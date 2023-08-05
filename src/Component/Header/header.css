@@ -1,0 +1,17 @@
+.gs-headerbanner
+{
+    position: relative;
+    z-index: 99;
+    margin: 5px;
+}
+.navbar-light .navbar-nav .nav-link
+{
+    color: #fff;
+    font-size: 12px;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+ .navbar-nav .nav-link button
+ {
+    font-size: 12px;
+ }
