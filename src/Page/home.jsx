@@ -1,11 +1,13 @@
 import React from 'react';
+import HomeAbout from '../Component/HomeAbout/about';
 import HomeBanner from '../Component/HomeBanner/banner';
-// import About from '../Component/Aboutmain/about';
+
 
 function home() {
   return (
     <div>
       <HomeBanner/>
+      <HomeAbout/>
     </div>
   )
 }

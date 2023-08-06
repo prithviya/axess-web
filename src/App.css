@@ -6,3 +6,11 @@
 {
   padding: 60px 0px;
 }
+.gs-underline-50::after
+{
+  content: "";
+  display: block;
+  width: 40%;
+  padding-top: 3px;
+  border-bottom: 4px solid #e6d739;
+}

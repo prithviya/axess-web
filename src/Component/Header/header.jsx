@@ -15,10 +15,10 @@ function header() {
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav" className='justify-content-end'>
                     <Nav className="ms-auto">
-                        <Nav.Link href="#deets" className="text-white">
+                        <Nav.Link href="#deets" className="">
                             HOME
                         </Nav.Link>
-                        <Nav.Link eventKey={2} href="#memes" className="text-white">
+                        <Nav.Link eventKey={2} href="#memes" className="">
                             ABOUT US
                         </Nav.Link>
                     </Nav>
@@ -55,10 +55,10 @@ function header() {
                         </NavDropdown>
                     </Nav>
                     <Nav>
-                        <Nav.Link href="#deets" className="text-white">
+                        <Nav.Link href="#deets" className="">
                             PORTFOLIO
                         </Nav.Link>
-                        <Nav.Link eventKey={2} href="#memes" className="text-white">
+                        <Nav.Link eventKey={2} href="#memes" className="">
                             CAREER
                         </Nav.Link>
                     </Nav>

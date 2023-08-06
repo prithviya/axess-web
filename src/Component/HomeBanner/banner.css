@@ -1,12 +1,11 @@
 .gs-homebanner
 {
     background-image: url('../../Assets/Banner/homepagebanner.png');
-    height: 100%;
-    width:  98.5%;
+    height: 100vh;
+    width:  100%;
     background-size: cover;
     background-repeat: no-repeat;
-    position: absolute;
-    margin: 10px !important;
+    position: relative;
     top: 0px;
 }
 .gs-banner-content
@@ -14,6 +13,8 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    position: relative;
+    position: absolute;
     text-align: center;
 }
+
+
